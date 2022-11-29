@@ -1,0 +1,83 @@
+{
+  "id": "fc1ea9aa-783a-4c7a-b8ca-2bce0b29d8bc",
+  "version": "2.0",
+  "name": "Skillfactory Test",
+  "url": "https://skillfactory.ru",
+  "tests": [{
+    "id": "e470c9d0-ff46-4e18-bc28-dabed25ded8e",
+    "name": "Skillfactory Test",
+    "commands": [{
+      "id": "0fa9e76b-c879-42e0-96fc-ad0b113ddc8c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e55831b-b5ef-48d5-94f0-0dfbab4f2a71",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c49020f7-aeac-4cd8-92a0-9d0de1619105",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d8aa735-27a4-4476-974d-7fe9ac28e4e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__4681130601654775842275 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__4681130601654775842275 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec468113060']/div/div/div[39]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/courses/programmirovanie')])[7]", "xpath:href"],
+        ["xpath=//div[39]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c359606-df18-40bf-82fa-e37216c793ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tn-elem__5071957471652779744723 > .tn-atom",
+      "targets": [
+        ["css=.tn-elem__5071957471652779744723 > .tn-atom", "css:finder"],
+        ["xpath=//div[@id='rec507195747']/div/div/div[41]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://skillfactory.ru/start-it-specialist-proforientaciya')])[2]", "xpath:href"],
+        ["xpath=//div[41]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2023",
+      "windowTimeout": 2000
+    }, {
+      "id": "03d82367-c832-4d7d-ade6-30bbd183809c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2023}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eaea0d3d-c1ba-4f34-9311-3a6f95eb5f09",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,36)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7d03b2b4-c8c3-4bf2-9ecb-5d4640ba10db",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://skillfactory.ru/"],
+  "plugins": []
+}
